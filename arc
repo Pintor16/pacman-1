@@ -18,6 +18,8 @@ void draw (){
  background (0); 
    fill(255,51,153);
  arc (x,y, 50, 50, inicio1, fin1);
+ fill(0);
+ ellipse (x-9,y-9,10,10);
  temp=inicio1;
  inicio1=inicio2;
  inicio2=temp;
